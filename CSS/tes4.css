@@ -1,0 +1,21 @@
+body {
+ margin: 0;
+ padding: 0;   
+}
+
+.h-700 {
+    height:700px;
+}
+
+.bg-salmon {
+background-color: salmon;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.position {
+    background: gray;
+    padding: 20px;
+}
