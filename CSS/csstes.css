@@ -50,6 +50,29 @@ h1 {
     text-shadow: 20px 20px 10px red;
 }
 
+.div1 {
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+    background-image: url(./343222828_185049601089366_2995122396552413429_n.jpg);
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: scroll;
+   }
+
+.div2 {
+    background-image: url(./343214761_126380780424224_840554283012774200_n.jpg);
+    height: 1500px;
+    background-size: cover;
+ 
+}
+
+.span {
+    background-color: blue;
+}
+
 #idGreen {
     color: green;
 }
