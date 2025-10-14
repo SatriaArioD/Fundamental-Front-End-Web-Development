@@ -1,0 +1,99 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onclick rubah warna</title>
+</head>
+<body>
+<button onclick="document.body.style.backgroundColor = 'yellow';">Ubah Warna</button>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onemouse</title>
+</head>
+<body>
+<h2
+    style="color: black;" 
+    onmouseover="this.style.color='red';" 
+    onmouseout="this.style.color='black';"
+>Arahkan mouse ke sini</h2>
+
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onkeyup</title>
+</head>
+<body>
+<input type="text" id="input" placeholder="Ketik sesuatu...">
+<p id="hasil"></p>
+<script>
+    let input = document.getElementById("input");
+    let hasil = document.getElementById("hasil");
+
+    input.onkeyup = function () {
+        hasil.innerText = "Kamu mengetik: " + input.value;
+    }
+</script>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onchange</title>
+</head>
+<body>
+<select id="pilihWarna">
+    <option value="">--Pilih Warna--</option>
+    <option value="red">Merah</option>
+    <option value="green">Hijau</option>
+    <option value="blue">Biru</option>
+</select>
+<p id="tampilWarnaTeks">Warna</p>
+<script>
+    let pilih = document.getElementById("pilihWarna");
+    let tampil = document.getElementById("tampilWarnaTeks");
+    pilih.onchange = function() {
+       let warnaTerpilih = pilih.value;
+
+        if (warnaTerpilih) {
+            tampil.style.color = warnaTerpilih;
+        } else {
+            tampil.style.color = 'black';
+        }
+    }
+</script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ondblclick</title>
+</head>
+<body>
+    <p id="doubleclick">Klik dua kali untuk ubah teks</p>
+    <script>
+        let p = document.getElementById("doubleclick");
+        p.ondblclick = function() {
+            p.innerText = "Teks sudah berubah!";
+        }
+
+    </script>
+</body>
+</html>
